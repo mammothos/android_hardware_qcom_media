@@ -2367,6 +2367,7 @@ OMX_ERRORTYPE  omx_venc::set_config(OMX_IN OMX_HANDLETYPE      hComp,
                     return OMX_ErrorUnsupportedSetting;
                 }
             }
+		break;
         case OMX_IndexConfigAndroidVendorExtension:
             {
                 VALIDATE_OMX_PARAM_DATA(configData, OMX_CONFIG_ANDROID_VENDOR_EXTENSIONTYPE);
